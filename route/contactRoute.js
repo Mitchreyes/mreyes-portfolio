@@ -41,7 +41,7 @@ router.post('/contact', (req, res) => {
     try {
       if (error)
         return res.status(400).json({ msg: 'Please fill in all the fields' })
-      res.status(200).json({ msg: 'Thank you for contacing Mitch' })
+      res.status(200).json({ msg: 'Thank you for contacting Mitch' })
     } catch (error) {
       if (error) return res.status(500).json({ msg: 'There is a server error' })
     }
