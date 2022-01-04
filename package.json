@@ -19,9 +19,5 @@
     "express": "^4.17.1",
     "nodemailer": "^6.7.2",
     "nodemon": "^2.0.15"
-  },
-  "devDependencies": {
-    "concurrently": "^5.3.0",
-    "nodemon": "^2.0.6"
   }
 }
